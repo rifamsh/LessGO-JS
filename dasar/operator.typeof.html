@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>typeof</title>
+</head>
+<body>
+    <script>
+
+        let data = null; // untuk mengetahui perbedaan antara undefined dan null
+
+        if (typeof data === "undefined") {
+            console.log("data is undefined");
+        } else if (data === null) {
+            console.log("data is defined");
+        }else {
+            console.log("data is defined with value: " + data);
+        }
+
+    </script>
+</body>
+</html>

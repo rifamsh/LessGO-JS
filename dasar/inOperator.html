@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>in operator</title>
+</head>
+<body>
+    <script>
+            // kalo pake in operator, kita bisa cek apakah property ada di dalam object atau tidak
+            // jika ada, maka akan mengembalikan true, jika tidak ada, maka akan mengembalikan false
+        const person = {
+            firstName: "John",
+            lastName: "Doe",
+        }
+
+        if ("firstName" in person) {
+            alert(`Hai ${person.firstName}`);
+        } else {
+            alert("helo");
+        }
+
+    </script>
+</body>
+</html>

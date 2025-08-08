@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undifened and popup</title>
+</head>
+
+<body>
+
+    <script>
+        let person = {};
+        if (person.name === undefined) {
+            alert("UNDEFINED");
+        } else {
+            alert("defined");
+        }
+
+        const person2 = {
+            name: "John",
+            age: 30
+        };
+        if (person2.name === undefined) {
+            console.info("UNDEFINED");
+        } else {
+            console.info("defined");
+        }
+
+        const person3 = {
+            name: "John",
+            age: 20
+        };
+        while (true) {
+            if (person3.name === undefined) {
+                console.warn("UNDEFINED");
+                break;
+            } else {
+                console.warn("DEFINED");
+                break;
+            }
+        }
+    </script>
+
+</body>
+
+</html>
