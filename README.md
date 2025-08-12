@@ -1,3 +1,3 @@
 pembelajaran sederhana:)
 
-next lesson nullish 
+next lesson Operator logika di no boolean
